@@ -1,0 +1,339 @@
+{
+  "username": "kenzo",
+  "theme": {
+    "name": "Default",
+    "backgroundColor": "#121317",
+    "windowColor": "#1e212b",
+    "textColor": "#e2e2e2",
+    "black": "#16161e",
+    "red": "#ec6183",
+    "green": "#2ed8a2",
+    "yellow": "#e8b195",
+    "blue": "#2bc3de",
+    "magenta": "#d1aff8",
+    "cyan": "#62e0e2",
+    "white": "#e2e2e2",
+    "gray": "#97989d"
+  },
+  "wallpaper": {
+    "url": "assets/5.jpeg",
+    "easing": "ease-in-out",
+    "fadeIn": true,
+    "blur": false
+  },
+  "terminal": {
+    "fixedHeight": true,
+    "windowGlow": true,
+    "windowGlowColor": "#291f3325",
+    "textGlow": false,
+    "opacity": 0,
+    "blur": 16
+  },
+  "prompt": {
+    "ctrlC": true,
+    "placeholder": "command...",
+    "placeholderColor": "gray",
+    "userColor": "green",
+    "atColor": "gray",
+    "hostColor": "magenta",
+    "promptColor": "magenta",
+    "promptSymbol": "❯",
+    "caretColor": "green",
+    "selectionBg": "yellow",
+    "selectionFg": "black"
+  },
+  "fetch": {
+    "timeFormat": "HH:mm",
+    "dateFormat": "DD/MM/YYYY",
+    "titleColor": "yellow",
+    "image": "assets/default-icon.svg",
+    "data": [
+        "Time: {time}",
+        "Date: {date}",
+        "{seperator}",
+        "OS: {osName} {osVersion}",
+        "Theme: {theme}",
+        "{seperator}",
+        "Browser: {browser} {browserVersion}",
+        "Engine: {engineName}",
+        "{seperator}",
+        "{colors}"
+    ]
+},
+"urlLaunch": {
+    "target": "_self",
+    "hoverColor": "magenta"
+},
+  "search": {
+    "default": "https://google.com/search?q=",
+    "target": "_self",
+    "shortcutRegex": "([A-Za-z0-9]+) (.*)",
+    "shortcuts": [
+      {
+        "alias": "g",
+        "name": "Google Search",
+        "url": "https://google.com/search?q={}"
+      },
+      {
+        "alias": "d",
+        "name": "DuckDuckGo Search",
+        "url": "https://duckduckgo.com/?q={}"
+      },
+      {
+        "alias": "y",
+        "name": "YouTube Search",
+        "url": "https://youtube.com/results?search_query={}"
+      },
+      {
+        "alias": "gh",
+        "name": "Github Search",
+        "url": "https://github.com/search?q={}"
+      },
+      {
+        "alias": "s",
+        "name": "Stack Overflow Search",
+        "url": "https://stackoverflow.com/search?q={}"
+      },
+      {
+        "alias": "r",
+        "name": "Subreddit Search",
+        "url": "https://reddit.com/r/{}"
+      },
+      {
+        "alias": "w",
+        "name": "Wikipedia Search",
+        "url": "https://en.wikipedia.org/wiki/{}"
+      }
+    ]
+  },
+  "sections": {
+    "list": [
+      {
+        "title": "General",
+        "color": "green",
+        "align": "left",
+        "links": [
+          {
+            "name": "GPT",
+            "url": "https://chat.openai.com/",
+            "icon": "simple-icons:openai"
+          },
+          {
+            "name": "Cloud Console",
+            "url": "https://console.anthropic.com/",
+            "icon": "mdi:cloud"
+          },
+          {
+            "name": "LobeChat",
+            "url": "https://lobechat.com/",
+            "icon": "mdi:chat"
+          },
+		  {
+            "name": "Open-WebUI",
+            "url": "http://0.0.0.0:8080/",
+            "icon": "mdi:chat"
+          }
+
+        ]
+      },
+      {
+        "title": "Dev",
+        "color": "magenta",
+        "align": "left",
+        "links": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com",
+            "icon": "mdi:github"
+          },
+		  {
+            "name": "Repos",
+            "url": "https://github.com/codewithkenzo?tab=repositories",
+            "icon": "mdi:github"
+          },
+		  {
+            "name": "Stars",
+            "url": "https://github.com/codewithkenzo?tab=stars",
+            "icon": "mdi:github"
+          },
+
+          {
+            "name": "Dev.to",
+            "url": "https://dev.to",
+            "icon": "material-symbols:logo-dev"
+          },
+          {
+            "name": "Roadmap.sh",
+            "url": "https://roadmap.sh",
+            "icon": "mdi:road-variant"
+          }
+        ]
+      },
+      {
+        "title": "Social",
+        "color": "cyan",
+        "align": "left",
+        "links": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com",
+            "icon": "mdi:twitter"
+          },
+          {
+            "name": "WhatsApp",
+            "url": "https://web.whatsapp.com/",
+            "icon": "mdi:whatsapp"
+          },
+          {
+            "name": "Reddit",
+            "url": "https://reddit.com",
+            "icon": "mdi:reddit"
+          },
+          {
+            "name": "Mastodon",
+            "url": "https://mastodon.social/",
+            "icon": "ri:mastodon-fill"
+          }
+        ]
+      },
+      {
+        "title": "Entertainment",
+        "color": "red",
+        "align": "left",
+        "links": [
+		  {
+            "name": "YouTube",
+            "url": "https://youtube.com",
+            "icon": "mdi:youtube"
+          },
+          {
+            "name": "Steam",
+            "url": "https://store.steampowered.com/",
+            "icon": "mdi:steam"
+          },
+          {
+            "name": "MonkeyType",
+            "url": "https://monkeytype.com/",
+            "icon": "mdi:keyboard"
+          },
+          {
+            "name": "Twitch",
+            "url": "https://twitch.tv",
+            "icon": "mdi:twitch"
+          },
+          {
+            "name": "Shiroko",
+            "url": "https://shiroko.co",
+            "icon": "mdi:play-circle"
+          },
+          {
+            "name": "MangaFire",
+            "url": "https://mangafire.to",
+            "icon": "mdi:book-open-page-variant"
+          },
+          {
+            "name": "AniList",
+            "url": "https://anilist.co",
+            "icon": "mdi:animation"
+          }
+        ]
+      },
+      {
+        "title": "Design",
+        "color": "yellow",
+        "align": "left",
+        "links": [
+          {
+            "name": "Pinterest",
+            "url": "https://pinterest.com",
+            "icon": "mdi:pinterest"
+          },
+          {
+            "name": "Dribbble",
+            "url": "https://dribbble.com",
+            "icon": "mdi:dribbble"
+          },
+          {
+            "name": "Landbook",
+            "url": "https://land-book.com",
+            "icon": "mdi:book-open"
+          },
+          {
+            "name": "Godly",
+            "url": "https://godly.website",
+            "icon": "mdi:web"
+          },
+          {
+            "name": "Dark.design",
+            "url": "https://www.dark.design",
+            "icon": "mdi:palette"
+          },
+          {
+            "name": "Figma",
+            "url": "https://www.figma.com",
+            "icon": "mdi:figma"
+          },
+          {
+            "name": "Framer",
+            "url": "https://www.framer.com",
+            "icon": "simple-icons:framer"
+          },
+          {
+            "name": "ColorHunt",
+            "url": "https://colorhunt.co",
+            "icon": "mdi:color-helper"
+          }
+        ]
+      },
+      {
+        "title": "Personal",
+        "color": "blue",
+        "align": "left",
+        "links": [
+          {
+            "name": "Gmail",
+            "url": "https://mail.google.com/",
+            "icon": "mdi:gmail"
+          },
+          {
+            "name": "Proton Mail",
+            "url": "https://mail.proton.me/",
+            "icon": "mdi:email"
+          },
+          {
+            "name": "Calendar",
+            "url": "https://calendar.google.com/",
+            "icon": "mdi:calendar"
+          },
+          {
+            "name": "Drive",
+            "url": "https://drive.google.com/",
+            "icon": "mdi:google-drive"
+          },
+          {
+            "name": "Raindrop",
+            "url": "https://app.raindrop.io",
+            "icon": "mdi:bookmark"
+          },
+          {
+            "name": "Proton Pass",
+            "url": "https://pass.proton.me/",
+            "icon": "mdi:shield-lock"
+          },
+		  {
+            "name": "Filen",
+            "url": "https://filen.io",
+            "icon": "mdi:shield-lock"
+          },
+		  {
+            "name": "Ente Auth",
+            "url": "https://auth.ente.io/auth",
+            "icon": "mdi:shield-lock"
+          }
+
+
+        ]
+      }
+    ]
+  }
+}
