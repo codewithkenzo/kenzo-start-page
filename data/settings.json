@@ -114,12 +114,12 @@
         "align": "left",
         "links": [
           {
-            "name": "GPT",
+            "name": "ChatGPT",
             "url": "https://chat.openai.com/",
             "icon": "simple-icons:openai"
           },
           {
-            "name": "Cloud Console",
+            "name": "Claude Console",
             "url": "https://console.anthropic.com/",
             "icon": "mdi:cloud"
           },
